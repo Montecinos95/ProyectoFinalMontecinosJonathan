@@ -1,0 +1,206 @@
+/* Colores */
+/* Estilos Index */
+.Welcome {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+.Welcome .container-fluid {
+  padding: 0px;
+}
+.Welcome .container-fluid img {
+  width: 100%;
+}
+
+.Bio {
+  display: flexbox;
+  width: 100%;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+.Bio .container-fluid {
+  padding: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.2rem;
+}
+
+/* Colores */
+/* Css propio para Pagina Music */
+.Discos .colfot {
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+.Discos .colfot img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.Discos .colfot:hover img {
+  transform: scale(1);
+}
+.Discos .text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(47, 47, 47, 0.9);
+  opacity: 0;
+  transition: opacity 0.3s;
+  flex-direction: column;
+}
+.Discos .colfot:hover .text-overlay {
+  opacity: 1;
+}
+.Discos .text-overlay h3 {
+  color: #FFCB74;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0;
+}
+.Discos .text-overlay a {
+  color: #F6F6F6;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Colores */
+/* Dates Seccion */
+.Dates {
+  background-image: url(../../media/fondos\ general/fondoticket.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.Dates .row .col span {
+  font-size: 1.3rem;
+}
+.Dates .Table {
+  height: 100vh;
+  padding-top: 31rem;
+  padding-left: 16%;
+  color: #F6F6F6;
+}
+.Dates .Table .col {
+  padding: 0.2rem;
+}
+.Dates .Table .btn {
+  width: 7rem;
+  background-color: #111111;
+  color: #FFCB74;
+}
+
+/* Colores */
+/* Merchan */
+.Merchan {
+  background-image: url(../../media/fondos\ general/fondo3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.Merchan .container-fluid {
+  padding: 0px;
+}
+.Merchan .card-parent {
+  width: 75%;
+  display: grid;
+  justify-content: center;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+.Merchan .card {
+  width: 100%;
+}
+.Merchan .card-body {
+  display: flex;
+  flex-direction: column;
+}
+.Merchan .card-body a {
+  background-color: rgb(47, 47, 47);
+  color: #FFCB74;
+}
+
+/* Colores */
+/* Estilos Contacto */
+.contacto {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-image: url(../../media/fondos\ general/fondo3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.contacto .contacto-container {
+  width: 75%;
+  border: 1px solid #FFCB74;
+  border-radius: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #F6F6F6;
+}
+
+/* Colores */
+/* Estilos generales */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #F6F6F6;
+  color: #111111;
+}
+.navbar .icono-barra {
+  padding-right: 33%;
+}
+.navbar img {
+  height: 40px;
+}
+.navbar ul {
+  gap: 0.5rem;
+}
+.navbar li {
+  transition: 0.5s;
+}
+.navbar ul:hover li {
+  filter: blur(5px);
+}
+.navbar ul li:hover {
+  filter: blur(0px);
+}
+
+/* Footer */
+.footer {
+  background-color: #111111;
+  color: #F6F6F6;
+}
+.footer .footer-table {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+  padding-top: 1rem;
+}
+.footer .footer-table ul a {
+  text-decoration: none;
+  color: #F6F6F6;
+}
+
+/*# sourceMappingURL=main.css.map */
