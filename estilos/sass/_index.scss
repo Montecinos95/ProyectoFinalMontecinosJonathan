@@ -1,0 +1,29 @@
+@import 'colors';
+/* Estilos Index */
+.Welcome {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $color3;
+    .container-fluid{
+        padding: 0px;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.Bio {
+  display: flexbox;
+  width: 100%; 
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+  background-color: $color3;
+    .container-fluid{
+        padding: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 1.2rem;
+    }
+}

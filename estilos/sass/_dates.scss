@@ -1,0 +1,27 @@
+@import 'colors';
+/* Dates Seccion */
+
+.Dates {
+    background-image: url(../../media/fondos\ general/fondoticket.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;  
+    .row .col span{
+      font-size: 1.3rem;
+  }
+    .Table {
+      height: 100vh;
+      padding-top: 31rem;
+      padding-left: 16%;
+      color: $color3;
+      .col {
+        padding: 0.2rem;
+      }
+      .btn{
+        width: 7rem;
+        background-color: $color1;
+        color: $color4;
+      }
+    }
+  }

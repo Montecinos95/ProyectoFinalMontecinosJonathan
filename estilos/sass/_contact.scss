@@ -1,0 +1,22 @@
+@import 'colors';
+
+/* Estilos Contacto */
+.contacto{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(../../media/fondos\ general/fondo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    .contacto-container {
+      width: 75%;
+      border: 1px solid $color4;
+      border-radius: 2rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      background-color: $color3;
+    }
+  }

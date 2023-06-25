@@ -1,0 +1,33 @@
+@import 'colors';
+/* Merchan */
+
+.Merchan {
+    background-image: url(../../media/fondos\ general/fondo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  
+      .container-fluid{
+        padding: 0px;
+      }
+      .card-parent {
+        width: 75%;
+        display: grid;
+        justify-content: center;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(15rem,1fr));
+      }
+      .card {
+        width: 100%;
+      }
+      .card-body {
+        display: flex;
+        flex-direction: column;
+      }
+      .card-body a {
+        background-color: $color2;
+        color: $color4;
+      }
+  }
+  
